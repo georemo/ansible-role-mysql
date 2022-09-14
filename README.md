@@ -236,5 +236,5 @@ MIT / BSD
 This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
 
 ## Modifications by @georemo: 14th, Sept 2022
-- add user cd and goremo
+- add user cd and goremo (new installations must change passwords)
 - roles folder added to gitignore to avoid git conflicts
