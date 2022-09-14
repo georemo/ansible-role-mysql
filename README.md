@@ -83,6 +83,7 @@ mysql_users: []
 ```
 
 The MySQL users and their privileges. A user has the values:
+Ref: https://docs.ansible.com/ansible/2.3/mysql_user_module.html
 
   - `name`
   - `host` (defaults to `localhost`)
@@ -206,7 +207,7 @@ None.
 
 ## Example Playbook
 
-    - hosts: db-servers
+    - hosts: dbservers
       become: yes
       vars_files:
         - vars/main.yml
@@ -233,3 +234,7 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+
+## Modifications by @georemo: 14th, Sept 2022
+- add user cd and goremo
+- roles folder added to gitignore to avoid git conflicts
